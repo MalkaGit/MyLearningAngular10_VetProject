@@ -1,0 +1,30 @@
+
+.main-navigation {
+  width: 150px;
+  background-color: #333;
+  color: white;
+  height: 100%;
+  position: fixed;
+}
+
+.main-navigation ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-navigation ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.main-navigation ul li a:hover {
+  background-color: #444;
+}
+
+.main-navigation ul li a.active {
+  background-color: #555;
+}
+
+
