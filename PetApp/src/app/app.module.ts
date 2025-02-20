@@ -8,6 +8,8 @@ import { EmployeesManagementComponent } from './pages/employees-management/emplo
 import { ClientsManagementComponent } from './pages/clients-management/clients-management.component';
 import { PetsManagementComponent } from './pages/pets-management/pets-management.component';
 import { CalenderManagementComponent } from './pages/calender-management/calender-management.component';
+import { MainNavigationComponent } from './layouts/main-navigation/main-navigation.component';
+import { MainLayoutComponent } from './layouts/main-layout/main-layout.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { CalenderManagementComponent } from './pages/calender-management/calende
     EmployeesManagementComponent,
     ClientsManagementComponent,
     PetsManagementComponent,
-    CalenderManagementComponent
+    CalenderManagementComponent,
+    MainNavigationComponent,
+    MainLayoutComponent
   ],
   imports: [
     BrowserModule,
